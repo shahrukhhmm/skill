@@ -32,7 +32,10 @@
     box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-body:hover .card-inner {
+// .card-body:hover .card-inner {
+//     transform: rotateY(180deg);
+// }
+.rotate{
     transform: rotateY(180deg);
 }
 
