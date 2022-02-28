@@ -1,0 +1,44 @@
+@import './variable';
+
+
+.contactus{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../img/service/contact.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:$text-color;
+    padding: 40px ;
+    border-radius: 20px;
+   
+}
+.contactus-heading{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 2px $text-color;
+    text-shadow:
+       3px 3px 0 $hover-color,
+     -1px -1px 0 $hover-color,  
+      1px -1px 0 $hover-color,
+      -1px 1px 0 $hover-color,
+       1px 1px 0 $hover-color;
+}
+
+.component{
+    margin-top: 50px;
+    background: $box-color;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contactus-header {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contactus-detail{
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
