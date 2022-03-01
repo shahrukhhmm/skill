@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body.hide-overflow {
@@ -506,6 +510,7 @@ nav .fa-bars, nav .fa-times {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .card-inner {

@@ -5,6 +5,7 @@ body{
    overflow-x: hidden;
    scroll-behavior: smooth;
    background-color: $primary-color;
+   user-select: none;
    &.hide-overflow{
     overflow: hidden;
    }
